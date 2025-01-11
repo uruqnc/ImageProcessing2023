@@ -31,8 +31,8 @@ target_link_libraries(makeborder ${OpenCV_LIBS})
 add_executable(filter2Ddemo filter2Ddemo.cpp)
 target_link_libraries(filter2Ddemo ${OpenCV_LIBS})
 
-add_executable(color color.cpp)
-target_link_libraries(color ${OpenCV_LIBS})
+add_executable(blkprocc blkprocc.cpp)
+target_link_libraries(blkprocc ${OpenCV_LIBS})
 
 add_executable(blkproc blkproc.cpp)
 target_link_libraries(blkproc ${OpenCV_LIBS})

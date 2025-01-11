@@ -5,8 +5,6 @@
 #include <functional>
 #include <opencv2/opencv.hpp>
 
-constexpr int DCTSIZE = 8;
-
 int clip(int v) {
   if (v > 255) {
     v = 255;

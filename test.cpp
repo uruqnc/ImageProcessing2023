@@ -1,3 +1,5 @@
+#include <cmath>
+#include <cstdint>
 #include <cstdio>
 #include <cstdlib>
 #include <opencv2/opencv.hpp>
